@@ -1,0 +1,145 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding-top: 56px;
+}
+
+.pizza-banner {
+  background-image: url("./assets/imgs/pizza-background.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px 0;
+  margin-bottom: 2rem;
+}
+
+.pizza-banner h1,
+.pizza-banner p {
+  color: white;
+}
+
+.pizza-banner hr {
+  height: 1px;
+  background-color: white;
+  border: none;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.pizza-card {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.pizza-card .pizza-card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.ingredient-list {
+  padding-left: 0;
+}
+
+.ingredient-list li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.my-4 {
+  margin: 2rem 0;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.nav-link .cart-icon {
+  margin-right: 0.5rem;
+  color: #fff;
+}
+
+.nav-link svg {
+  margin-right: 0.5rem;
+}
+
+.price {
+  font-size: 32px;
+  text-align: center;
+}
+
+.cart-count {
+  color: #000;
+  border-radius: 12px;
+  padding: 0 6px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.btn-group-sm > .btn {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
