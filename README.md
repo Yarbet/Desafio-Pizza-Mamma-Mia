@@ -1,6 +1,6 @@
-# ✨ Prueba - Mamma Mia!
+#  Prueba - Mamma Mia!
 
-## 🚀 Instalación
+##  Instalación
 
 ```
 npm install
